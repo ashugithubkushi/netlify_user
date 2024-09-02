@@ -142,7 +142,7 @@ function Login() {
             </div>
 
             <div className="forgot-password">
-              <a href="/">Forgot password?</a>
+              <a href="/">Forgot password...?</a>
             </div>
 
             <button type="submit" className="login-btn">
