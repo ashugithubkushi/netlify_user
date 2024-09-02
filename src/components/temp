@@ -1,0 +1,192 @@
+// https://www.youtube.com/watch?v=-yoyIiuJQBU
+// https://www.youtube.com/watch?v=QyYMvdFwBKA
+
+// https://www.youtube.com/watch?v=PN3rt-0k1is&t=0s
+// imp
+// https://www.youtube.com/watch?v=FRHpUaADtT8&t=0s
+//server
+
+// <form className="form1" onSubmit={handleSubmit}>
+// <div className="d-flex justify-content-between">
+//   <div
+//     className="input d-flex flex-column flex-grow-1"
+//     style={{ marginLeft: "10px" }}
+//   >
+//     <div className="m-2 p-1">
+//       <label htmlFor="input2">
+//         <h4>Vehicle Name</h4>
+//       </label>
+//       <input
+//         type="text"
+//         id="input6"
+//         value={selectedVehicle}
+//         readOnly
+//         style={{ width: "75%" }}
+//       />
+//     </div>
+
+//     <div className="m-2 p-1">
+//       <label htmlFor="vehicleNumber">
+//         <h4>Vehicle Number</h4>
+//       </label>
+//       <select
+//         id="vehicleNumber"
+//         value={vehicleNumber}
+//         onChange={handleVehicleNumberChange}
+//         style={{ width: "75%" }}
+//       >
+//         <option value="">Vehicle Number</option>
+//         {vehicleNumbers.map((number) => (
+//           <option key={number} value={number}>
+//             {number}
+//           </option>
+//         ))}
+//       </select>
+//     </div>
+//   </div>
+
+//   <div
+//     className="input d-flex flex-column flex-grow-1"
+//     style={{ marginRight: "10px" }}
+//   >
+//     <div className="m-2 p-1">
+//       <label htmlFor="villa number">
+//         <h4>Villa Number</h4>
+//       </label>
+//       <input
+//         type="text"
+//         id="villa number"
+//         value={villaNumber}
+//         placeholder="Villa Number"
+//         onChange={(e) => setVillaNumber(e.target.value)}
+//         style={{ width: "75%" }}
+//       />
+//     </div>
+
+//     <div className="m-2 p-1">
+//       <label htmlFor="slot-date">
+//         <h4>Slot Date (IST)</h4>
+//       </label>
+//       <input
+//         className="date-input"
+//         type="date"
+//         id="slot-date"
+//         value={selectedDate.toISOString().split("T")[0]}
+//         onChange={handleDateChange}
+//         min={getCurrentDate()}
+//         style={{ width: "75%" }}
+//       />
+//     </div>
+
+   
+
+//     {/* booked / avaialble  */}
+//     {/* <div className="m-2 p-1">
+//   <label>From Time:</label>
+//   <input
+//     type="time"
+//     value={fromTime}
+//     onChange={handleFromTimeChange}
+//   />
+
+//   <label>To Time:</label>
+//   <input
+//     type="time"
+//     value={toTime}
+//     onChange={handleToTimeChange}
+//   />
+// </div> */}
+//   </div>
+// </div>
+
+// {/* //slots */}
+// <div>
+//   {/* <TimeSlotSelector onSlotSelect={handleSlotSelect} /> */}
+//   <div className="m-2 p-1">
+//       <div className="time-slot-selector">
+//       <div className="container">
+//       <div className="left-content"><h5>Slots</h5></div>
+
+//       <div className="right-content">
+
+//       <div class='m-1'>
+//       <input type="radio" id="available" name="status" value="available"></input>
+//       <label for="available">Available</label>
+//     </div>
+
+//     <div class='m-1'>
+//       <input type="radio1" id="booked" name="status" value="booked"></input>
+//       <label for="booked">Booked</label>
+//     </div>
+//               </div>
+//         </div>
+        
+//         <div className="time-slots">
+//           {/* {timeSlots.map((slot) => (
+//             <div
+//               key={slot.time}
+//               className={`time-slot-button ${
+//                 selectedSlot === slot.time ? "selected" : ""
+//               }`}
+//               onClick={() => handleSlotSelect(slot.time)}
+//             >
+//               {slot.time}
+//             </div>
+//           ))} */}
+
+// {timeSlots.map((slot) => (
+// <div
+// key={slot.time}
+// className={`time-slot-button ${
+// selectedSlot === slot.time ? "selected" : ""
+// } ${bookedSlots.includes(slot.time) ? "booked disabled" : ""}`}
+// onClick={() => handleSlotSelect(slot.time)}
+// >
+// {slot.time}
+// </div>
+// ))}
+//         </div>
+//       </div>
+      
+
+//       {selectedSlot && (
+// <div className="selected-slot bg-white d-flex">
+// <h6>Selected Slot:</h6>
+// <p>{selectedSlot}</p>
+// </div>
+// )}
+
+//     </div>
+// </div>
+
+// {/* <label>Booked By</label>
+// <select
+//   className="form-group-input"
+//   id="input7"
+//   value={bookedBy}
+//   onChange={handleBookedByChange}
+// >
+//   <option value="">Select Booked By</option>
+//   {bookedByOptions.map((option) => (
+//     <option key={option} value={option}>
+//       {option}
+//     </option>
+//   ))}
+// </select> */}
+
+// {formError && (
+//   <p className="error">Please fill out all fields.</p>
+// )}
+// <div className="text-end">
+//   <Button
+//     color="secondary"
+//     className=" m-1"
+//     onClick={handlereset}
+//   >
+//     Reset
+//   </Button>
+//   <Button color="primary" onClick={handleSubmit}>
+//     Submit
+//   </Button>
+// </div>
+// </form>
